@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer>
-      <h2>this is footer section </h2>
+    <footer className="p-4">
+      <h2 className="text-2xl leading-tight">this is footer section</h2>
     </footer>
   );
 }

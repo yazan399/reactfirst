@@ -5,10 +5,12 @@ import Footer from "./footer";
 
 export default function App() {
   return (
-    <div>
+    <div className="min-h-screen min-w-[320px] bg-[#242424] text-white/87 font-sans antialiased">
       <Nav />
-      <Employees />
-      <Client />
+      <main>
+        <Employees />
+        <Client />
+      </main>
       <Footer />
     </div>
   );
